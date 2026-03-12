@@ -38,6 +38,7 @@
   </div>
 </template>
 <script>
+import gsap from 'gsap';
 import Mensagem from './Mensagem.vue';
   export default {
     name: "Dashboard",
@@ -112,9 +113,14 @@ import Mensagem from './Mensagem.vue';
 
       }
     },
-    mounted () {
-    this.getPedidos()
+   async mounted () {
+    await this.getPedidos()
     console.log(this.burgers)
+    gsap.from(".burger-table-row", {
+     opacity: 0,
+     y: -20,
+     stagger: 0.2
+    })
     }
   }
 </script>

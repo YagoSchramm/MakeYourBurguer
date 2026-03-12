@@ -5,11 +5,12 @@
 </template>
 
 <script>
+import gsap from 'gsap';
 export default {
 name:"Message",
 props:{
     msg:String
-}
+},
 }
 </script>
 

@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "backend":"json-server --watch db/db.json"
+    "backend": "json-server --watch db/db.json"
   },
   "dependencies": {
+    "gsap": "^3.14.2",
     "json-server": "^1.0.0-beta.12",
+    "three": "^0.183.2",
     "vue": "^3.5.29",
     "vue-router": "^5.0.3"
   },

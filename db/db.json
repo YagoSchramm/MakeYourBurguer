@@ -77,6 +77,18 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [],
+  "burgers": [
+    {
+      "id": "b655",
+      "nome": "Yago",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
